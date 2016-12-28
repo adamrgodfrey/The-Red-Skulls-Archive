@@ -1,0 +1,6 @@
+2016-12-27 23:17:24,147 : INFO : Machine : Mission Pinball Framework Core Engine v0.32.6
+2016-12-27 23:17:24,148 : INFO : Machine : Machine path: C:\pinball\redskullstest
+2016-12-27 23:17:24,719 : INFO : Machine : Loading config from original files
+2016-12-27 23:17:24,862 : INFO : Machine : Machine config file #1: C:\pinball\redskullstest\config\config
+2016-12-27 23:17:25,178 : INFO : Machine : Config file cache created: C:\Users\Customer\AppData\Local\Temp\f6eef2de233280d1dd6b1c0885b8cc32config
+2016-12-27 23:17:25,961 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...

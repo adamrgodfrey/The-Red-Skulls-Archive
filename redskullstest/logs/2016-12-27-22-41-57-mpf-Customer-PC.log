@@ -1,0 +1,119 @@
+2016-12-27 22:41:57,631 : INFO : Machine : Mission Pinball Framework Core Engine v0.32.6
+2016-12-27 22:41:57,632 : INFO : Machine : Machine path: C:\pinball\redskullstest
+2016-12-27 22:41:58,303 : INFO : Machine : Loading config from original files
+2016-12-27 22:41:58,446 : INFO : Machine : Machine config file #1: C:\pinball\redskullstest\config\config
+2016-12-27 22:41:58,766 : INFO : Machine : Config file cache created: C:\Users\Customer\AppData\Local\Temp\f6eef2de233280d1dd6b1c0885b8cc32config
+2016-12-27 22:41:59,439 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2016-12-27 22:42:39,372 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2016-12-27 22:42:39,928 : INFO : Mode.tilt : Mode Starting. Priority: 1000000
+2016-12-27 22:42:39,933 : INFO : SwitchController : Active Switch|s_r_trough
+2016-12-27 22:42:39,934 : INFO : SwitchController : Active Switch|s_l_trough
+2016-12-27 22:42:39,937 : INFO : Mode.service : Mode Starting. Priority: 100000
+2016-12-27 22:42:39,950 : INFO : Mode.attract : Mode Starting. Priority: 10
+2016-12-27 22:42:39,963 : INFO : Machine : Shutting down...
+2016-12-27 22:42:39,965 : INFO : Machine : Shutting down...
+2016-12-27 22:42:39,968 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\config_players\gi_player.py", line 21, in play
+    gi.enable(**s)
+AttributeError: 'str' object has no attribute 'enable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 59, in _play
+    events_when_completed=show_settings['events_when_completed']
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 375, in play
+    events_when_completed=events_when_completed)
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 458, in __init__
+    self._start_play()
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 498, in _start_play
+    self._run_next_step(post_events='play')
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 661, in _run_next_step
+    show_tokens=self.show_tokens)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 261, in show_play_callback
+    show_tokens=show_tokens, context=context)
+  File "c:\python34\lib\site-packages\mpf\config_players\gi_player.py", line 24, in play
+    self.machine.gis[gi].enable(**s)
+  File "c:\python34\lib\site-packages\mpf\core\device_manager.py", line 280, in __getitem__
+    return super().__getitem__(self.__class__.lower(key))
+  File "c:\python34\lib\site-packages\mpf\core\case_insensitive_dict.py", line 21, in __getitem__
+    return super().__getitem__(self.__class__.lower(key))
+KeyError: 'gi_upper_left'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 575, in process_event_queue
+    **event[3])
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 543, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 500, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 248, in config_play_callback
+    self.play(settings=settings, context=context, calling_context=calling_context, priority=priority, **kwargs)
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 27, in play
+    self._update_show(show, show_settings, context, queue)
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 138, in _update_show
+    action(key, instance_dict, show, show_settings, queue)
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 64, in _play
+    "name.".format(show))
+KeyError: "Cannot play show 'gi_on'. No show with that name."
+2016-12-27 22:42:40,039 : ERROR : root : "Cannot play show 'gi_on'. No show with that name."
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\config_players\gi_player.py", line 21, in play
+    gi.enable(**s)
+AttributeError: 'str' object has no attribute 'enable'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 59, in _play
+    events_when_completed=show_settings['events_when_completed']
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 375, in play
+    events_when_completed=events_when_completed)
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 458, in __init__
+    self._start_play()
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 498, in _start_play
+    self._run_next_step(post_events='play')
+  File "c:\python34\lib\site-packages\mpf\assets\show.py", line 661, in _run_next_step
+    show_tokens=self.show_tokens)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 261, in show_play_callback
+    show_tokens=show_tokens, context=context)
+  File "c:\python34\lib\site-packages\mpf\config_players\gi_player.py", line 24, in play
+    self.machine.gis[gi].enable(**s)
+  File "c:\python34\lib\site-packages\mpf\core\device_manager.py", line 280, in __getitem__
+    return super().__getitem__(self.__class__.lower(key))
+  File "c:\python34\lib\site-packages\mpf\core\case_insensitive_dict.py", line 21, in __getitem__
+    return super().__getitem__(self.__class__.lower(key))
+KeyError: 'gi_upper_left'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 139, in __init__
+    MachineController(mpf_path, machine_path, vars(args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 574, in run
+    self._run_loop()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 615, in _run_loop
+    raise self._exception['exception']
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 575, in process_event_queue
+    **event[3])
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 543, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 500, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 248, in config_play_callback
+    self.play(settings=settings, context=context, calling_context=calling_context, priority=priority, **kwargs)
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 27, in play
+    self._update_show(show, show_settings, context, queue)
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 138, in _update_show
+    action(key, instance_dict, show, show_settings, queue)
+  File "c:\python34\lib\site-packages\mpf\config_players\show_player.py", line 64, in _play
+    "name.".format(show))
+KeyError: "Cannot play show 'gi_on'. No show with that name."

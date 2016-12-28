@@ -1,0 +1,173 @@
+2016-12-24 18:22:49,978 : INFO : Machine : Mission Pinball Framework Core Engine v0.32.6
+2016-12-24 18:22:49,979 : INFO : Machine : Machine path: C:\pinball\mpf-examples-0.32.x\demo_man
+2016-12-24 18:22:50,454 : INFO : Machine : Loading config from original files
+2016-12-24 18:22:50,594 : INFO : Machine : Machine config file #1: C:\pinball\mpf-examples-0.32.x\demo_man\config\config
+2016-12-24 18:22:51,024 : INFO : Machine : Config file cache created: C:\Users\Customer\AppData\Local\Temp\6d969980ebb754da698a137393d1e79aconfig
+2016-12-24 18:22:51,707 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2016-12-24 18:23:32,608 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2016-12-24 18:23:32,924 : INFO : Mode.tilt : Mode Starting. Priority: 1000000
+2016-12-24 18:23:32,926 : INFO : SwitchController : Active Switch|s_trough_2
+2016-12-24 18:23:32,927 : INFO : SwitchController : Active Switch|s_trough_3
+2016-12-24 18:23:32,928 : INFO : SwitchController : Active Switch|s_coin_door_closed
+2016-12-24 18:23:32,928 : INFO : SwitchController : Active Switch|s_trough_5
+2016-12-24 18:23:32,929 : INFO : SwitchController : Active Switch|s_trough_4
+2016-12-24 18:23:32,929 : INFO : SwitchController : Active Switch|s_trough_1
+2016-12-24 18:23:32,931 : INFO : Mode.service : Mode Starting. Priority: 100000
+2016-12-24 18:23:32,936 : INFO : Mode.attract : Mode Starting. Priority: 10
+2016-12-24 18:24:05,060 : INFO : SwitchController : <<<<< switch: s_start, State:1 >>>>>
+2016-12-24 18:24:05,135 : INFO : SwitchController : <<<<< switch: s_start, State:0 >>>>>
+2016-12-24 18:24:05,135 : INFO : Mode.game : Mode Starting. Priority: 20
+2016-12-24 18:24:05,139 : INFO : Mode.game : Player added successfully. Total players: 1
+2016-12-24 18:24:05,140 : INFO : Mode.skillshot : Mode Starting. Priority: 300
+2016-12-24 18:24:05,144 : INFO : Mode.claw_lit_for_major_mode : Mode Starting. Priority: 200
+2016-12-24 18:24:05,146 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-24 18:24:05,170 : INFO : SwitchController : <<<<< switch: s_trough_1, State:0 >>>>>
+2016-12-24 18:24:05,258 : INFO : SwitchController : <<<<< switch: s_shooter_lane, State:1 >>>>>
+2016-12-24 18:24:05,771 : INFO : SwitchController : <<<<< switch: s_shooter_lane, State:0 >>>>>
+2016-12-24 18:24:08,849 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:08,899 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:11,238 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:11,310 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:11,694 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:11,780 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:11,915 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:11,988 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:12,109 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:12,158 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:12,270 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:12,341 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:12,439 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:12,485 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:12,597 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:12,646 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:12,756 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:12,814 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:13,145 : INFO : SwitchController : <<<<< switch: s_trough_1, State:1 >>>>>
+2016-12-24 18:24:13,633 : INFO : Mode.bonus : Mode Starting. Priority: 500
+2016-12-24 18:24:16,151 : INFO : Mode.skillshot : Mode Starting. Priority: 300
+2016-12-24 18:24:16,156 : INFO : Mode.claw_lit_for_major_mode : Mode Starting. Priority: 200
+2016-12-24 18:24:16,158 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-24 18:24:16,179 : INFO : SwitchController : <<<<< switch: s_trough_1, State:0 >>>>>
+2016-12-24 18:24:16,268 : INFO : SwitchController : <<<<< switch: s_shooter_lane, State:1 >>>>>
+2016-12-24 18:24:16,784 : INFO : SwitchController : <<<<< switch: s_shooter_lane, State:0 >>>>>
+2016-12-24 18:24:18,695 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:18,753 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:18,841 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:18,867 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:18,953 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:19,022 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:19,099 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:19,163 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:19,254 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:19,291 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:19,414 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:19,487 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:19,574 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:1 >>>>>
+2016-12-24 18:24:19,625 : INFO : SwitchController : <<<<< switch: s_ball_launch, State:0 >>>>>
+2016-12-24 18:24:21,564 : INFO : SwitchController : <<<<< switch: s_start, State:1 >>>>>
+2016-12-24 18:24:21,623 : INFO : SwitchController : <<<<< switch: s_start, State:0 >>>>>
+2016-12-24 18:24:21,871 : INFO : SwitchController : <<<<< switch: s_start, State:1 >>>>>
+2016-12-24 18:24:21,942 : INFO : SwitchController : <<<<< switch: s_start, State:0 >>>>>
+2016-12-24 18:24:22,245 : INFO : SwitchController : <<<<< switch: s_start, State:1 >>>>>
+2016-12-24 18:24:22,309 : INFO : SwitchController : <<<<< switch: s_start, State:0 >>>>>
+2016-12-24 18:24:23,544 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:23,583 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:23,899 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:23,975 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:24,097 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:24,146 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:24,219 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:24,282 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:24,659 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:24,695 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:24,796 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:24,864 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:24,964 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:25,037 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:25,146 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:25,230 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:25,326 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:25,404 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:25,516 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:25,587 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:25,696 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:25,751 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:25,846 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:25,903 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:25,999 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:26,060 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:26,190 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:26,271 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:26,389 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:26,473 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:26,598 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:26,670 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:26,789 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:26,887 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:26,998 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:27,086 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:27,220 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:27,304 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:27,436 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:27,521 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:27,656 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:27,705 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:27,816 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:27,886 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:27,985 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:28,059 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:28,144 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:28,205 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:31,700 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:31,753 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:32,069 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:32,138 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:32,263 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:32,310 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:32,444 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:32,516 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:32,629 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:32,703 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:32,852 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:32,908 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:33,032 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:33,139 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:33,264 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:33,349 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:33,470 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:33,543 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:33,664 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:33,736 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:33,847 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:33,918 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:34,030 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:34,116 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:34,235 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:34,310 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:34,421 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:34,507 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:34,639 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:34,702 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:34,822 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:34,919 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:35,016 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:35,114 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:35,210 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:35,286 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:35,406 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:35,451 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:35,552 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:1 >>>>>
+2016-12-24 18:24:35,647 : INFO : SwitchController : <<<<< switch: s_left_slingshot, State:0 >>>>>
+2016-12-24 18:24:36,051 : INFO : SwitchController : <<<<< switch: s_trough_1, State:1 >>>>>
+2016-12-24 18:24:36,565 : INFO : Mode.bonus : Mode Starting. Priority: 500
+2016-12-24 18:24:39,075 : INFO : Mode.skillshot : Mode Starting. Priority: 300
+2016-12-24 18:24:39,080 : INFO : Mode.claw_lit_for_major_mode : Mode Starting. Priority: 200
+2016-12-24 18:24:39,084 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-24 18:24:39,115 : INFO : SwitchController : <<<<< switch: s_trough_1, State:0 >>>>>
+2016-12-24 18:24:39,217 : INFO : SwitchController : <<<<< switch: s_shooter_lane, State:1 >>>>>
+2016-12-24 18:24:39,732 : INFO : SwitchController : <<<<< switch: s_shooter_lane, State:0 >>>>>
+2016-12-24 18:24:42,607 : INFO : SwitchController : <<<<< switch: s_trough_1, State:1 >>>>>
+2016-12-24 18:24:43,117 : INFO : Mode.bonus : Mode Starting. Priority: 500
+2016-12-24 18:24:45,623 : INFO : Mode.high_score : Mode Starting. Priority: 500
+2016-12-24 18:24:47,745 : INFO : Machine : Shutting down...
+2016-12-24 18:24:47,748 : INFO : root : MPF run loop ended.

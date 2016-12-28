@@ -1,0 +1,38 @@
+2016-12-27 23:07:50,697 : INFO : kivy : Factory: 179 symbols loaded
+2016-12-27 23:07:50,873 : INFO : kivy : Image: Providers: img_tex, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2016-12-27 23:07:50,935 : INFO : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2016-12-27 23:07:50,936 : INFO : kivy : Video: Provider: gstplayer
+2016-12-27 23:07:50,975 : INFO : kivy : Loading MPF-MC controller
+2016-12-27 23:07:50,975 : INFO : mpfmc : Mission Pinball Framework Media Controller v0.32.11
+2016-12-27 23:07:50,976 : INFO : mpfmc : Machine path: C:\pinball\redskullstest
+2016-12-27 23:07:50,976 : INFO : mpfmc : Starting clock at 60.0Hz
+2016-12-27 23:07:50,988 : INFO : kivy : Text: Provider: sdl2
+2016-12-27 23:07:51,417 : INFO : kivy : OSC: using <thread> for socket
+2016-12-27 23:07:51,424 : INFO : kivy : Window: Provider: sdl2
+2016-12-27 23:07:51,626 : INFO : kivy : GL: GLEW initialization succeeded
+2016-12-27 23:07:51,626 : INFO : kivy : GL: OpenGL version <b'4.5.13464 Compatibility Profile Context 21.19.384.0'>
+2016-12-27 23:07:51,627 : INFO : kivy : GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2016-12-27 23:07:51,628 : INFO : kivy : GL: OpenGL renderer <b'AMD Radeon(TM) R5 240'>
+2016-12-27 23:07:51,629 : INFO : kivy : GL: OpenGL parsed version: 4, 5
+2016-12-27 23:07:51,630 : INFO : kivy : GL: Shading version <b'4.50'>
+2016-12-27 23:07:51,631 : INFO : kivy : GL: Texture max size <16384>
+2016-12-27 23:07:51,631 : INFO : kivy : GL: Texture max units <32>
+2016-12-27 23:07:51,648 : INFO : kivy : Window: auto add sdl2 input provider
+2016-12-27 23:07:51,649 : INFO : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2016-12-27 23:07:51,832 : INFO : AudioInterface : Initialized 0.32.5
+2016-12-27 23:07:51,838 : INFO : kivy : Base: Start application main loop
+2016-12-27 23:07:51,905 : INFO : kivy : GL: NPOT texture support is available
+2016-12-27 23:08:30,960 : INFO : MPF-MC BCP Server : Starting up on localhost port 5050
+2016-12-27 23:08:30,966 : INFO : MPF-MC BCP Server : Waiting for a connection...
+2016-12-27 23:08:31,637 : INFO : MPF-MC BCP Server : Received connection from: 127.0.0.1:50338
+2016-12-27 23:08:31,648 : INFO : mpfmc : Initializing Physical DMD
+2016-12-27 23:08:31,671 : INFO : mpfmc : Setting Physical DMD to 24fps
+2016-12-27 23:08:48,614 : INFO : kivy : Base: Leaving application in progress...
+2016-12-27 23:08:48,616 : INFO : mpfmc : Stopping...
+2016-12-27 23:08:48,617 : INFO : mpfmc : Loop rate 21.96 Hz
+2016-12-27 23:08:48,619 : INFO : kivy : MC run loop ended.
+2016-12-27 23:08:48,620 : INFO : kivy : Stopping child threads... (3 remaining)
+2016-12-27 23:08:48,624 : INFO : mpfmc : Stopping...
+2016-12-27 23:08:48,625 : INFO : mpfmc : Loop rate 21.96 Hz
+2016-12-27 23:08:49,385 : INFO : MPF-MC BCP Server : Stopping BCP sending thread
+2016-12-27 23:08:49,425 : INFO : kivy : All child threads stopped.
