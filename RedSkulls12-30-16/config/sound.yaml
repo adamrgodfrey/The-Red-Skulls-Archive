@@ -1,0 +1,361 @@
+# config_version=4
+# The Red Skulls
+
+sound_pools:
+   sfx_left_slingshot:
+      type: random_force_all
+      sounds:
+         aaargh____LEGACY.wav
+         clash_2___LEGACY.wav
+         grunt_2___LEGACY.wav
+         grunt_6___LEGACY.wav
+         grunt_10__LEGACY.wav
+         high_sco__LEGACY.wav
+         laser__L__LEGACY.wav
+         punch__L__LEGACY__.wav
+         punch_3___LEGACY 2.wav
+         punch_4___LEGACY.wav
+   sfx_left_letters:
+      type: random_force_all
+      sounds:
+         all_lett__LEGACY.wav
+         bomb_wir__LEGACY.wav
+         combo_1__LEGACY.wav
+         dead_tar__LEGACY.wav
+         glass_broken__LEGACY.wav
+   voice_gameover:
+      type: random_force_all
+      sounds:
+         End of Ball Drain Tilt_STE-006 Audio Extracted_55.wav
+         End of Ball Drain Tilt_STE-009 Audio Extracted_28.wav
+         End of Ball Drain Tilt_STE-009 Audio Extracted_29.wav
+         Game Over_Call outs-adam Audio Extracted_26.wav
+         Game Over_STE-002 Audio Extracted_58.wav
+         Game Over_STE-002 Audio Extracted_59.wav
+         Game Over_STE-002 Audio Extracted_60.wav
+         Game Over_STE-006 Audio Extracted_49.wav
+         Game Over_STE-006 Audio Extracted_50.wav
+         Game Over_STE-008 Audio Extracted_45.wav
+         Game Over_STE-010 Audio Extracted Audio Extracted.wav
+         Game Over_STE-010 Audio Extracted_51.wav
+         Game Over_STE-014 Audio Extracted_46.wav
+         Game Over_STE-015 Audio Extracted_47.wav
+         Game Over_STE-015 Audio Extracted_48.wav
+         Game Over_STE-018 Audio Extracted_49.wav
+         Various_STE-005 Audio Extracted_4.wav
+         Various_STE-007 Audio Extracted_31.wav
+         Various_STE-010 Audio Extracted_41.wav
+         Various_STE-012 Audio Extracted_1.wav
+         Various_STE-012 Audio Extracted_8.wav
+         Various_STE-012 Audio Extracted_9.wav
+         Various_STE-012 Audio Extracted_12.wav
+         Various_STE-012 Audio Extracted_23.wav
+         Various_STE-012 Audio Extracted_24.wav
+         Various_STE-012 Audio Extracted_25.wav
+         Various_STE-015 Audio Extracted_40.wav
+   voice_tilt:
+      type: random_force_all
+      sounds:
+         Tilt_Call outs-adam Audio Extracted_37.wav
+         Tilt_STE-002 Audio Extracted_85.wav
+         Tilt_STE-002 Audio Extracted_86.wav
+         Tilt_STE-006 Audio Extracted_74.wav
+         Tilt_STE-006 Audio Extracted_75.wav
+         Tilt_STE-006 Audio Extracted_76.wav
+         Tilt_STE-007 Audio Extracted_47.wav
+         Tilt_STE-008 Audio Extracted_68.wav
+         Tilt_STE-010 Audio Extracted_73.wav
+         Tilt_STE-014 Audio Extracted_66.wav
+         Tilt_STE-014 Audio Extracted_67.wav
+         Tilt_STE-014 Audio Extracted_68.wav
+         Tilt_STE-015 Audio Extracted_66.wav
+         Tilt_STE-018 Audio Extracted_68.wav
+         Various_STE-012 Audio Extracted_2.wav
+         Various_STE-012 Audio Extracted_32.wav
+   voice_2x:
+      type: random_force_all
+      sounds:
+         2x_STE-006 Audio Extracted_3 Audio Extracted.wav
+         2x_STE-007 Audio Extracted Audio Extracted.wav
+         2x_STE-008 Audio Extracted_3 Audio Extracted.wav
+         2x_STE-010 Audio Extracted_4 Audio Extracted.wav
+         2x_STE-014 Audio Extracted_3 Audio Extracted.wav
+         2x_STE-015 Audio Extracted_3 Audio Extracted.wav
+         2x_STE-018 Audio Extracted_3 Audio Extracted.wav
+   voice_3x:
+      type: random_force_all
+      sounds:
+         3x_STE-006 Audio Extracted_4.wav
+         3x_STE-007 Audio Extracted_1.wav
+         3x_STE-008 Audio Extracted_4.wav
+         3x_STE-010 Audio Extracted_5.wav
+         3x_STE-014 Audio Extracted_4.wav
+         3x_STE-015 Audio Extracted_4.wav
+         3x_STE-018 Audio Extracted_4.wav
+   voice_4x:
+      type: random_force_all
+      sounds:
+         4x_STE-006 Audio Extracted_7.wav
+         4x_STE-007 Audio Extracted_3.wav
+         4x_STE-008 Audio Extracted_7.wav
+         4x_STE-010 Audio Extracted_8.wav
+         4x_STE-014 Audio Extracted_7.wav
+         4x_STE-015 Audio Extracted_7.wav
+         4x_STE-018 Audio Extracted_7.wav
+   voice_5x:
+      type: random_force_all
+      sounds:
+         5x_STE-006 Audio Extracted_9.wav
+         5x_STE-007 Audio Extracted_4.wav
+         5x_STE-008 Audio Extracted_9.wav
+         5x_STE-010 Audio Extracted_10.wav
+         5x_STE-014 Audio Extracted_9.wav
+         5x_STE-015 Audio Extracted_9.wav
+         5x_STE-018 Audio Extracted_9.wav
+   voice_10x:
+      type: random_force_all
+      sounds:
+         10x_STE-006 Audio Extracted_11.wav
+         10x_STE-007 Audio Extracted_6.wav
+         10x_STE-008 Audio Extracted_11.wav
+         10x_STE-009 Audio Extracted_6.wav
+         10x_STE-010 Audio Extracted_12.wav
+         10x_STE-014 Audio Extracted_11.wav
+         10x_STE-014 Audio Extracted_12.wav
+         10x_STE-015 Audio Extracted_11.wav
+         10x_STE-018 Audio Extracted_11.wav
+   voice_5secs:
+      type: random_force_all
+      sounds:
+         5Secs_STE-002 Audio Extracted_4.wav
+         5Secs_STE-006 Audio Extracted_6.wav
+         5Secs_STE-007 Audio Extracted_2.wav
+         5Secs_STE-008 Audio Extracted_6.wav
+         5Secs_STE-009 Audio Extracted_3.wav
+         5Secs_STE-010 Audio Extracted_7.wav
+         5Secs_STE-014 Audio Extracted_6.wav
+         5Secs_STE-015 Audio Extracted_6.wav
+         5Secs_STE-018 Audio Extracted_6.wav
+   voice_10secs:
+      type: random_force_all
+      sounds:
+         10 sec_STE-002 Audio Extracted_5.wav
+         10 sec_STE-002 Audio Extracted_6.wav
+         10 sec_STE-002 Audio Extracted_7.wav
+         10 sec_STE-004 Audio Extracted.wav
+         10 sec_STE-006 Audio Extracted_10.wav
+         10 sec_STE-007 Audio Extracted_5.wav
+         10 sec_STE-008 Audio Extracted_10.wav
+         10 sec_STE-009 Audio Extracted_5.wav
+         10 sec_STE-010 Audio Extracted_11.wav
+         10 sec_STE-014 Audio Extracted_10.wav
+         10 sec_STE-015 Audio Extracted_10.wav
+         10 sec_STE-018 Audio Extracted_10.wav
+   voice_addaball:
+      type: random_force_all
+      sounds:
+         add a ball_Call outs-adam Audio Extracted_4.wav
+         add a ball_Call outs-adam Audio Extracted_5.wav
+         add a ball_STE-002 Audio Extracted_8.wav
+         add a ball_STE-002 Audio Extracted_9.wav
+         add a ball_STE-006 Audio Extracted_12.wav
+         add a ball_STE-008 Audio Extracted_12.wav
+         add a ball_STE-009 Audio Extracted_7.wav
+         add a ball_STE-010 Audio Extracted_13.wav
+         add a ball_STE-014 Audio Extracted_13.wav
+         add a ball_STE-015 Audio Extracted_12.wav
+         add a ball_STE-018 Audio Extracted_12.wav
+         Various_STE-012 Audio Extracted_37.wav
+   voice_again:
+      type: random_force_all
+      sounds:
+         Again_Call outs-adam Audio Extracted_6.wav
+         Again_STE-002 Audio Extracted_10.wav
+         Again_STE-002 Audio Extracted_11.wav
+         Again_STE-006 Audio Extracted_13.wav
+         Again_STE-007 Audio Extracted_7.wav
+         Again_STE-008 Audio Extracted_13.wav
+         Again_STE-009 Audio Extracted_8.wav
+         Again_STE-010 Audio Extracted_14.wav
+         Again_STE-014 Audio Extracted_14.wav
+         Again_STE-015 Audio Extracted_13.wav
+         Again_STE-018 Audio Extracted_13.wav
+         Various_STE-012 Audio Extracted_38.wav
+   voice_allscores_doubled:
+      type: random_force_all
+      sounds:
+         All SCores Doubled_STE-002 Audio Extracted_12.wav
+         All SCores Doubled_STE-002 Audio Extracted_13.wav
+         All SCores Doubled_STE-006 Audio Extracted_14.wav
+         All SCores Doubled_STE-006 Audio Extracted_15.wav
+         All SCores Doubled_STE-007 Audio Extracted_8.wav
+         All SCores Doubled_STE-008 Audio Extracted_14.wav
+         All SCores Doubled_STE-008 Audio Extracted_15.wav
+         All SCores Doubled_STE-009 Audio Extracted_9.wav
+         All SCores Doubled_STE-010 Audio Extracted_15.wav
+         All SCores Doubled_STE-010 Audio Extracted_16.wav
+         All SCores Doubled_STE-014 Audio Extracted_15.wav
+         All SCores Doubled_STE-014 Audio Extracted_16.wav
+         All SCores Doubled_STE-015 Audio Extracted_14.wav
+         All SCores Doubled_STE-015 Audio Extracted_15.wav
+         All SCores Doubled_STE-018 Audio Extracted_14.wav
+         All SCores Doubled_STE-018 Audio Extracted_15.wav
+   voice_ball_1_locked:
+      type: random_force_all
+      sounds:
+         Ball 1 locked_Call outs-adam Audio Extracted_8.wav
+         Ball 1 locked_Call outs-adam Audio Extracted_9.wav
+         Ball 1 locked_STE-002 Audio Extracted_16.wav
+         Ball 1 locked_STE-006 Audio Extracted_17.wav
+         Ball 1 locked_STE-007 Audio Extracted_9.wav
+         Ball 1 locked_STE-008 Audio Extracted_17.wav
+         Ball 1 locked_STE-010 Audio Extracted_18.wav
+         Ball 1 locked_STE-014 Audio Extracted_18.wav
+         Ball 1 locked_STE-015 Audio Extracted_17.wav
+         Ball 1 locked_STE-018 Audio Extracted_17.wav
+         Ball locked_Call outs-adam Audio Extracted_10.wav
+         Ball locked_STE-002 Audio Extracted_17.wav
+         Ball locked_STE-006 Audio Extracted_18.wav
+         Ball locked_STE-007 Audio Extracted_10.wav
+         Ball locked_STE-008 Audio Extracted_18.wav
+         Ball locked_STE-010 Audio Extracted_19.wav
+         Ball locked_STE-010 Audio Extracted_20.wav
+         Ball locked_STE-014 Audio Extracted_19.wav
+         Ball locked_STE-015 Audio Extracted_18.wav
+         Ball locked_STE-018 Audio Extracted_18.wav
+   voice_ball_2_locked:
+      type: random_force_all
+      sounds:
+         Ball 2 locked_Call outs-adam Audio Extracted_11.wav
+         Ball 2 locked_STE-006 Audio Extracted_19.wav
+         Ball 2 locked_STE-007 Audio Extracted_11.wav
+         Ball 2 locked_STE-008 Audio Extracted_19.wav
+         Ball 2 locked_STE-010 Audio Extracted_21.wav
+         Ball 2 locked_STE-014 Audio Extracted_20.wav
+         Ball 2 locked_STE-015 Audio Extracted_19.wav
+         Ball 2 locked_STE-018 Audio Extracted_19.wav
+         Ball locked_Call outs-adam Audio Extracted_10.wav
+         Ball locked_STE-002 Audio Extracted_17.wav
+         Ball locked_STE-006 Audio Extracted_18.wav
+         Ball locked_STE-007 Audio Extracted_10.wav
+         Ball locked_STE-008 Audio Extracted_18.wav
+         Ball locked_STE-010 Audio Extracted_19.wav
+         Ball locked_STE-010 Audio Extracted_20.wav
+         Ball locked_STE-014 Audio Extracted_19.wav
+         Ball locked_STE-015 Audio Extracted_18.wav
+         Ball locked_STE-018 Audio Extracted_18.wav
+   voice_ball_3_locked:
+      type: random_force_all
+      sounds:
+         Ball 3 locked_Call outs-adam Audio Extracted_12.wav
+         Ball 3 locked_STE-006 Audio Extracted_20.wav
+         Ball 3 locked_STE-007 Audio Extracted_12.wav
+         Ball 3 locked_STE-008 Audio Extracted_20.wav
+         Ball 3 locked_STE-010 Audio Extracted_22.wav
+         Ball 3 locked_STE-014 Audio Extracted_21.wav
+         Ball 3 locked_STE-015 Audio Extracted_20.wav
+         Ball 3 locked_STE-018 Audio Extracted_20.wav
+         Ball locked_Call outs-adam Audio Extracted_10.wav
+         Ball locked_STE-002 Audio Extracted_17.wav
+         Ball locked_STE-006 Audio Extracted_18.wav
+         Ball locked_STE-007 Audio Extracted_10.wav
+         Ball locked_STE-008 Audio Extracted_18.wav
+         Ball locked_STE-010 Audio Extracted_19.wav
+         Ball locked_STE-010 Audio Extracted_20.wav
+         Ball locked_STE-014 Audio Extracted_19.wav
+         Ball locked_STE-015 Audio Extracted_18.wav
+         Ball locked_STE-018 Audio Extracted_18.wav
+   voice_ball_4_locked:
+      type: random_force_all
+      sounds:
+         Ball 4 locked_Call outs-adam Audio Extracted_13.wav
+         Ball 4 locked_STE-006 Audio Extracted_21.wav
+         Ball 4 locked_STE-007 Audio Extracted_13.wav
+         Ball 4 locked_STE-008 Audio Extracted_21.wav
+         Ball 4 locked_STE-010 Audio Extracted_23.wav
+         Ball 4 locked_STE-014 Audio Extracted_22.wav
+         Ball 4 locked_STE-015 Audio Extracted_21.wav
+         Ball 4 locked_STE-018 Audio Extracted_21.wav
+         Ball locked_Call outs-adam Audio Extracted_10.wav
+         Ball locked_STE-002 Audio Extracted_17.wav
+         Ball locked_STE-006 Audio Extracted_18.wav
+         Ball locked_STE-007 Audio Extracted_10.wav
+         Ball locked_STE-008 Audio Extracted_18.wav
+         Ball locked_STE-010 Audio Extracted_19.wav
+         Ball locked_STE-010 Audio Extracted_20.wav
+         Ball locked_STE-014 Audio Extracted_19.wav
+         Ball locked_STE-015 Audio Extracted_18.wav
+         Ball locked_STE-018 Audio Extracted_18.wav
+   voice_ball_saved:
+      type: random_force_all
+      sounds:
+         Ball Saved_Call outs-adam Audio Extracted_14.wav
+         Ball Saved_STE-002 Audio Extracted_18.wav
+         Ball Saved_STE-002 Audio Extracted_19.wav
+         Ball Saved_STE-006 Audio Extracted_22.wav
+         Ball Saved_STE-006 Audio Extracted_23.wav
+         Ball Saved_STE-007 Audio Extracted_14.wav
+         Ball Saved_STE-007 Audio Extracted_15.wav
+         Ball Saved_STE-007 Audio Extracted_16.wav
+         Ball Saved_STE-007 Audio Extracted_17.wav
+         Ball Saved_STE-008 Audio Extracted_22.wav
+         Ball Saved_STE-008 Audio Extracted_23.wav
+         Ball Saved_STE-009 Audio Extracted_11.wav
+         Ball Saved_STE-009 Audio Extracted_12.wav
+         Ball Saved_STE-010 Audio Extracted_24.wav
+         Ball Saved_STE-010 Audio Extracted_25.wav
+         Ball Saved_STE-014 Audio Extracted_23.wav
+         Ball Saved_STE-014 Audio Extracted_24.wav
+         Ball Saved_STE-015 Audio Extracted_22.wav
+         Ball Saved_STE-015 Audio Extracted_23.wav
+         Ball Saved_STE-018 Audio Extracted_22.wav
+         Ball Saved_STE-018 Audio Extracted_23.wav
+         get_back__LEGACY.wav
+         Various_STE-009 Audio Extracted_23.wav
+   voice_big_points:
+      type: random_force_all
+      sounds:
+         Big Points_STE-002 Audio Extracted_32.wav
+         Big Points_STE-002 Audio Extracted_33.wav
+         Big Points_STE-006 Audio Extracted_35.wav
+         Big Points_STE-007 Audio Extracted_27.wav
+         Big Points_STE-008 Audio Extracted_32.wav
+         Big Points_STE-009 Audio Extracted_21.wav
+         Big Points_STE-010 Audio Extracted_34.wav
+         Big Points_STE-014 Audio Extracted_33.wav
+         Big Points_STE-015 Audio Extracted_35.wav
+         Big Points_STE-018 Audio Extracted_33.wav
+         Various_STE-012 Audio Extracted_13.wav
+         Various_STE-012 Audio Extracted_44.wav
+   voice_bonus_multiplied:
+      type: random_force_all
+      sounds:
+         Bomus Multiplied_STE-015 Audio Extracted_33.wav
+         Bonus Multiplied_STE-006 Audio Extracted_34.wav
+         Bonus Multiplied_STE-007 Audio Extracted_26.wav
+         Bonus Multiplied_STE-009 Audio Extracted_20.wav
+         Bonus Multiplied_STE-010 Audio Extracted_33.wav
+         Bonus Multiplied_STE-015 Audio Extracted_34.wav
+         Bonus Multiplied_STE-018 Audio Extracted_32.wav
+   voice_bonus_X_is_lit:
+      type: random_force_all
+      sounds:
+         Bomus X is lit_STE-006 Audio Extracted_33.wav
+         Bomus X is lit_STE-007 Audio Extracted_25.wav
+         Bomus X is lit_STE-008 Audio Extracted_31.wav
+         Bomus X is lit_STE-009 Audio Extracted_19.wav
+         Bomus X is lit_STE-014 Audio Extracted_32.wav
+   voice_combo:
+      type: random_force_all
+      sounds:
+         COMBO_Call outs-adam Audio Extracted_20.wav
+         COMBO_STE-002 Audio Extracted_30.wav
+         COMBO_STE-002 Audio Extracted_31.wav
+         COMBO_STE-006 Audio Extracted_32.wav
+         COMBO_STE-007 Audio Extracted_24.wav
+         COMBO_STE-008 Audio Extracted_30.wav
+         COMBO_STE-010 Audio Extracted_32.wav
+         COMBO_STE-014 Audio Extracted_31.wav
+         COMBO_STE-015 Audio Extracted_32.wav
+         COMBO_STE-018 Audio Extracted_31.wav
+         Various_STE-012 Audio Extracted_18.wav

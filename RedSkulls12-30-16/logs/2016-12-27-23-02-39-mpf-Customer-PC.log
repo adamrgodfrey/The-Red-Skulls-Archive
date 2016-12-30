@@ -1,0 +1,131 @@
+2016-12-27 23:02:39,351 : INFO : Machine : Mission Pinball Framework Core Engine v0.32.6
+2016-12-27 23:02:39,352 : INFO : Machine : Machine path: C:\pinball\redskullstest
+2016-12-27 23:02:40,130 : INFO : Machine : Loading config from original files
+2016-12-27 23:02:40,282 : INFO : Machine : Machine config file #1: C:\pinball\redskullstest\config\config
+2016-12-27 23:02:40,645 : INFO : Machine : Config file cache created: C:\Users\Customer\AppData\Local\Temp\f6eef2de233280d1dd6b1c0885b8cc32config
+2016-12-27 23:02:41,361 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2016-12-27 23:03:21,136 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2016-12-27 23:03:21,387 : INFO : Mode.tilt : Mode Starting. Priority: 1000000
+2016-12-27 23:03:21,390 : INFO : SwitchController : Active Switch|s_r_trough
+2016-12-27 23:03:21,392 : INFO : SwitchController : Active Switch|s_l_trough
+2016-12-27 23:03:21,393 : INFO : Mode.service : Mode Starting. Priority: 100000
+2016-12-27 23:03:21,400 : INFO : Mode.attract : Mode Starting. Priority: 10
+2016-12-27 23:03:26,137 : INFO : SwitchController : <<<<< switch: s_credit_button, State:1 >>>>>
+2016-12-27 23:03:26,236 : INFO : SwitchController : <<<<< switch: s_credit_button, State:0 >>>>>
+2016-12-27 23:03:26,239 : INFO : Mode.game : Mode Starting. Priority: 20
+2016-12-27 23:03:26,243 : INFO : Mode.game : Player added successfully. Total players: 1
+2016-12-27 23:03:26,245 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-27 23:03:26,266 : INFO : SwitchController : <<<<< switch: s_r_trough, State:0 >>>>>
+2016-12-27 23:03:26,357 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:1 >>>>>
+2016-12-27 23:03:28,775 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:0 >>>>>
+2016-12-27 23:03:40,063 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:03:40,149 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:03:40,691 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:03:40,788 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:03:41,252 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:03:41,400 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:03:42,261 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:03:42,382 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:03:43,464 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:43,562 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:43,894 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:43,990 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:44,259 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:44,370 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:44,685 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:44,772 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:45,085 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:45,194 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:46,590 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:46,721 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:47,175 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:47,321 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:47,745 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:47,870 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:48,262 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:48,399 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:48,752 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:48,876 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:49,128 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:49,193 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:49,301 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:49,376 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:49,447 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:49,532 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:49,606 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:49,702 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:49,767 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:49,841 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:49,949 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:50,011 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:50,182 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:50,268 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:50,512 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:50,599 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:50,864 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:51,037 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:51,070 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:51,208 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:51,221 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:51,358 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:51,396 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:51,504 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:51,518 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:51,676 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:51,713 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:51,807 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:51,835 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:52,008 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:52,023 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:52,141 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:52,167 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:52,322 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:52,361 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:52,459 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:52,485 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:52,645 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:52,660 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:52,742 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:52,790 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:52,950 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:52,951 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:53,047 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:53,190 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:53,424 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:53,653 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:53,737 : INFO : SwitchController : <<<<< switch: s_g_target, State:1 >>>>>
+2016-12-27 23:03:53,836 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:54,043 : INFO : SwitchController : <<<<< switch: s_g_target, State:0 >>>>>
+2016-12-27 23:03:54,044 : INFO : SwitchController : <<<<< switch: s_l_jet, State:1 >>>>>
+2016-12-27 23:03:54,336 : INFO : SwitchController : <<<<< switch: s_k_target, State:1 >>>>>
+2016-12-27 23:03:54,354 : INFO : SwitchController : <<<<< switch: s_l_jet, State:0 >>>>>
+2016-12-27 23:03:54,524 : INFO : SwitchController : <<<<< switch: s_k_target, State:0 >>>>>
+2016-12-27 23:03:54,828 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:1 >>>>>
+2016-12-27 23:03:55,896 : INFO : SwitchController : <<<<< switch: s_o_target, State:1 >>>>>
+2016-12-27 23:03:55,983 : INFO : SwitchController : <<<<< switch: s_o_target, State:0 >>>>>
+2016-12-27 23:03:59,615 : INFO : SwitchController : <<<<< switch: s_outhole, State:1 >>>>>
+2016-12-27 23:03:59,697 : INFO : SwitchController : <<<<< switch: s_outhole, State:0 >>>>>
+2016-12-27 23:04:34,480 : INFO : SwitchController : <<<<< switch: s_l_trough, State:0 >>>>>
+2016-12-27 23:04:36,372 : INFO : SwitchController : <<<<< switch: s_outhole, State:1 >>>>>
+2016-12-27 23:04:36,470 : INFO : SwitchController : <<<<< switch: s_outhole, State:0 >>>>>
+2016-12-27 23:04:37,317 : INFO : SwitchController : <<<<< switch: s_l_trough, State:1 >>>>>
+2016-12-27 23:04:37,574 : INFO : SwitchController : <<<<< switch: s_r_trough, State:1 >>>>>
+2016-12-27 23:04:37,879 : WARNING : playfield.playfield : Playfield balls went to -1. Resetting to 0, but FYI that something's weird. Unexpected balls: 1
+2016-12-27 23:04:38,712 : INFO : SwitchController : <<<<< switch: s_r_trough, State:0 >>>>>
+2016-12-27 23:04:38,920 : INFO : SwitchController : <<<<< switch: s_l_trough, State:0 >>>>>
+2016-12-27 23:04:44,303 : INFO : SwitchController : <<<<< switch: s_r_trough, State:1 >>>>>
+2016-12-27 23:04:44,629 : INFO : SwitchController : <<<<< switch: s_l_trough, State:1 >>>>>
+2016-12-27 23:04:44,841 : INFO : SwitchController : <<<<< switch: s_r_trough, State:0 >>>>>
+2016-12-27 23:04:44,971 : INFO : SwitchController : <<<<< switch: s_l_trough, State:0 >>>>>
+2016-12-27 23:04:45,131 : INFO : SwitchController : <<<<< switch: s_r_trough, State:1 >>>>>
+2016-12-27 23:04:45,701 : INFO : SwitchController : <<<<< switch: s_r_trough, State:0 >>>>>
+2016-12-27 23:04:46,822 : INFO : SwitchController : <<<<< switch: s_r_trough, State:1 >>>>>
+2016-12-27 23:04:47,419 : INFO : SwitchController : <<<<< switch: s_l_trough, State:1 >>>>>
+2016-12-27 23:04:49,140 : INFO : SwitchController : <<<<< switch: s_outhole, State:1 >>>>>
+2016-12-27 23:04:49,248 : INFO : SwitchController : <<<<< switch: s_outhole, State:0 >>>>>
+2016-12-27 23:04:49,798 : INFO : SwitchController : <<<<< switch: s_outhole, State:1 >>>>>
+2016-12-27 23:04:50,114 : WARNING : playfield.playfield : Playfield balls went to -1. Resetting to 0, but FYI that something's weird. Unexpected balls: 1
+2016-12-27 23:04:50,124 : INFO : SwitchController : <<<<< switch: s_outhole, State:0 >>>>>
+2016-12-27 23:04:50,126 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-27 23:05:03,646 : INFO : Machine : Shutting down...
+2016-12-27 23:05:03,651 : INFO : root : MPF run loop ended.
