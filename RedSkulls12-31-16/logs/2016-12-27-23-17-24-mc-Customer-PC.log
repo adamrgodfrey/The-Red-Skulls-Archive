@@ -1,0 +1,75 @@
+2016-12-27 23:17:25,553 : INFO : kivy : Factory: 179 symbols loaded
+2016-12-27 23:17:25,810 : INFO : kivy : Image: Providers: img_tex, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2016-12-27 23:17:25,882 : INFO : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2016-12-27 23:17:25,882 : INFO : kivy : Video: Provider: gstplayer
+2016-12-27 23:17:25,916 : INFO : kivy : Loading MPF-MC controller
+2016-12-27 23:17:25,916 : INFO : mpfmc : Mission Pinball Framework Media Controller v0.32.11
+2016-12-27 23:17:25,917 : INFO : mpfmc : Machine path: C:\pinball\redskullstest
+2016-12-27 23:17:25,917 : INFO : mpfmc : Starting clock at 30.0Hz
+2016-12-27 23:17:25,929 : INFO : kivy : Text: Provider: sdl2
+2016-12-27 23:17:26,407 : INFO : kivy : OSC: using <thread> for socket
+2016-12-27 23:17:26,414 : INFO : kivy : Window: Provider: sdl2
+2016-12-27 23:17:26,611 : INFO : kivy : GL: GLEW initialization succeeded
+2016-12-27 23:17:26,612 : INFO : kivy : GL: OpenGL version <b'4.5.13464 Compatibility Profile Context 21.19.384.0'>
+2016-12-27 23:17:26,614 : INFO : kivy : GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2016-12-27 23:17:26,614 : INFO : kivy : GL: OpenGL renderer <b'AMD Radeon(TM) R5 240'>
+2016-12-27 23:17:26,616 : INFO : kivy : GL: OpenGL parsed version: 4, 5
+2016-12-27 23:17:26,617 : INFO : kivy : GL: Shading version <b'4.50'>
+2016-12-27 23:17:26,618 : INFO : kivy : GL: Texture max size <16384>
+2016-12-27 23:17:26,618 : INFO : kivy : GL: Texture max units <32>
+2016-12-27 23:17:26,637 : INFO : kivy : Window: auto add sdl2 input provider
+2016-12-27 23:17:26,638 : INFO : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2016-12-27 23:17:26,821 : INFO : AudioInterface : Initialized 0.32.5
+2016-12-27 23:17:26,827 : INFO : kivy : Base: Start application main loop
+2016-12-27 23:17:26,941 : INFO : kivy : Base: Leaving application in progress...
+2016-12-27 23:17:26,942 : ERROR : kivy : 'dmd'
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpfmc\commands\mc.py", line 168, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\python34\lib\site-packages\kivy\app.py", line 828, in run
+    runTouchApp()
+  File "c:\python34\lib\site-packages\kivy\base.py", line 487, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\python34\lib\site-packages\kivy\core\window\window_sdl2.py", line 619, in mainloop
+    self._mainloop()
+  File "c:\python34\lib\site-packages\kivy\core\window\window_sdl2.py", line 362, in _mainloop
+    EventLoop.idle()
+  File "c:\python34\lib\site-packages\kivy\base.py", line 327, in idle
+    Clock.tick()
+  File "c:\python34\lib\site-packages\kivy\clock.py", line 515, in tick
+    self._process_events()
+  File "c:\python34\lib\site-packages\kivy\clock.py", line 647, in _process_events
+    event.tick(self._last_tick, remove)
+  File "c:\python34\lib\site-packages\kivy\clock.py", line 406, in tick
+    ret = callback(self._dt)
+  File "c:\python34\lib\site-packages\mpfmc\uix\display.py", line 123, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 236, in displays_initialized
+    self._init()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 277, in _init
+    self.events.process_event_queue()
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 575, in process_event_queue
+    **event[3])
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 543, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 500, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 248, in config_play_callback
+    self.play(settings=settings, context=context, calling_context=calling_context, priority=priority, **kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\config_players\slide_player.py", line 174, in play
+    target.show_slide(slide_name=slide, key=full_context, **s)
+  File "c:\python34\lib\site-packages\mpfmc\uix\slide_frame.py", line 220, in show_slide
+    play_kwargs=play_kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\uix\slide_frame.py", line 201, in add_slide
+    play_kwargs=play_kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\uix\slide.py", line 62, in __init__
+    play_kwargs=play_kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\uix\widget.py", line 55, in create_widget_objects_from_config
+    mc=mc, config=widget, key=this_key, play_kwargs=play_kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\widgets\dmd.py", line 16, in __init__
+    self.source = self.mc.displays[self.config['source_display']]
+  File "c:\python34\lib\site-packages\mpf\core\case_insensitive_dict.py", line 21, in __getitem__
+    return super().__getitem__(self.__class__.lower(key))
+KeyError: 'dmd'
+2016-12-27 23:17:26,967 : INFO : kivy : Stopping child threads... (1 remaining)
+2016-12-27 23:17:27,869 : INFO : kivy : All child threads stopped.

@@ -1,0 +1,20 @@
+2016-12-27 23:07:49,452 : INFO : Machine : Mission Pinball Framework Core Engine v0.32.6
+2016-12-27 23:07:49,453 : INFO : Machine : Machine path: C:\pinball\redskullstest
+2016-12-27 23:07:50,055 : INFO : Machine : Loading cached config: C:\Users\Customer\AppData\Local\Temp\f6eef2de233280d1dd6b1c0885b8cc32config
+2016-12-27 23:07:50,683 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2016-12-27 23:08:31,638 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2016-12-27 23:08:32,289 : INFO : Mode.tilt : Mode Starting. Priority: 1000000
+2016-12-27 23:08:32,293 : INFO : SwitchController : Active Switch|s_r_trough
+2016-12-27 23:08:32,295 : INFO : SwitchController : Active Switch|s_l_trough
+2016-12-27 23:08:32,297 : INFO : Mode.service : Mode Starting. Priority: 100000
+2016-12-27 23:08:32,310 : INFO : Mode.attract : Mode Starting. Priority: 10
+2016-12-27 23:08:37,962 : INFO : SwitchController : <<<<< switch: s_credit_button, State:1 >>>>>
+2016-12-27 23:08:38,051 : INFO : SwitchController : <<<<< switch: s_credit_button, State:0 >>>>>
+2016-12-27 23:08:38,053 : INFO : Mode.game : Mode Starting. Priority: 20
+2016-12-27 23:08:38,061 : INFO : Mode.game : Player added successfully. Total players: 1
+2016-12-27 23:08:38,069 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-27 23:08:38,122 : INFO : SwitchController : <<<<< switch: s_r_trough, State:0 >>>>>
+2016-12-27 23:08:38,236 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:1 >>>>>
+2016-12-27 23:08:40,109 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:0 >>>>>
+2016-12-27 23:08:48,624 : INFO : Machine : Shutting down...
+2016-12-27 23:08:48,630 : INFO : root : MPF run loop ended.
