@@ -1,0 +1,32 @@
+2016-12-27 23:08:54,305 : INFO : Machine : Mission Pinball Framework Core Engine v0.32.6
+2016-12-27 23:08:54,306 : INFO : Machine : Machine path: C:\pinball\redskullstest
+2016-12-27 23:08:54,997 : INFO : Machine : Loading cached config: C:\Users\Customer\AppData\Local\Temp\f6eef2de233280d1dd6b1c0885b8cc32config
+2016-12-27 23:08:55,775 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2016-12-27 23:09:35,054 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2016-12-27 23:09:35,360 : INFO : Mode.tilt : Mode Starting. Priority: 1000000
+2016-12-27 23:09:35,363 : INFO : SwitchController : Active Switch|s_r_trough
+2016-12-27 23:09:35,364 : INFO : SwitchController : Active Switch|s_l_trough
+2016-12-27 23:09:35,365 : INFO : Mode.service : Mode Starting. Priority: 100000
+2016-12-27 23:09:35,372 : INFO : Mode.attract : Mode Starting. Priority: 10
+2016-12-27 23:09:38,075 : INFO : SwitchController : <<<<< switch: s_credit_button, State:1 >>>>>
+2016-12-27 23:09:38,117 : INFO : SwitchController : <<<<< switch: s_credit_button, State:0 >>>>>
+2016-12-27 23:09:38,120 : INFO : Mode.game : Mode Starting. Priority: 20
+2016-12-27 23:09:38,130 : INFO : Mode.game : Player added successfully. Total players: 1
+2016-12-27 23:09:38,136 : INFO : Mode.base : Mode Starting. Priority: 100
+2016-12-27 23:09:38,174 : INFO : SwitchController : <<<<< switch: s_r_trough, State:0 >>>>>
+2016-12-27 23:09:38,264 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:1 >>>>>
+2016-12-27 23:09:58,540 : INFO : SwitchController : <<<<< switch: s_ball_shooter, State:0 >>>>>
+2016-12-27 23:10:08,885 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:10:08,962 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:10:09,206 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:10:09,285 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:10:09,367 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:10:09,443 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:10:09,522 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:10:09,566 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:10:09,653 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:10:09,730 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:10:09,769 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:1 >>>>>
+2016-12-27 23:10:09,844 : INFO : SwitchController : <<<<< switch: s_l_kicker, State:0 >>>>>
+2016-12-27 23:10:13,807 : INFO : Machine : Shutting down...
+2016-12-27 23:10:13,811 : INFO : root : MPF run loop ended.
